@@ -1,0 +1,7 @@
+{
+  "height": 1080,
+  "crf": 23,
+  "preset": "slow",
+  "audioBitrate": 128,
+  "hlsTime": 6
+}
