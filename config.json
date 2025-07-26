@@ -1,7 +1,32 @@
 {
-  "height": 1080,
-  "crf": 23,
-  "preset": "slow",
-  "audioBitrate": 128,
-  "hlsTime": 6
+	"default": {
+		"height": 1080,
+		"crf": 23,
+		"preset": "slow",
+		"audioBitrate": 128,
+		"hlsTime": 6
+	},
+	"presets": {
+		"fullhd-high": {
+			"height": 1080,
+			"crf": 18,
+			"preset": "slow",
+			"audioBitrate": 192,
+			"hlsTime": 6
+		},
+		"fullhd-medium": {
+			"height": 1080,
+			"crf": 23,
+			"preset": "medium",
+			"audioBitrate": 128,
+			"hlsTime": 6
+		},
+		"fullhd-low": {
+			"height": 1080,
+			"crf": 28,
+			"preset": "fast",
+			"audioBitrate": 96,
+			"hlsTime": 6
+		}
+	}
 }
