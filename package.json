@@ -1,0 +1,16 @@
+{
+  "name": "video-hls-converter",
+  "version": "1.0.0",
+  "description": "Конвертер видео в стриминговый формат hls",
+  "main": "index.js",
+  "scripts": {
+    "convert:one": "convert-one-to-hls.ps1",
+    "convert:all": "convert-all-to-hls.ps1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/majbernhardt/video-hls-converter.git"
+  },
+  "author": "https://github.com/majbernhardt",
+  "license": "MIT"
+}
