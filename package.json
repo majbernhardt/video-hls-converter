@@ -4,8 +4,7 @@
   "description": "Конвертер видео в стриминговый формат hls",
   "main": "index.js",
   "scripts": {
-    "convert:one": "convert-one-to-hls.ps1",
-    "convert:all": "convert-all-to-hls.ps1"
+    "clear:converted": "node scripts/clear-folder.js video-hls"
   },
   "repository": {
     "type": "git",
